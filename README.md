@@ -1,3 +1,3 @@
 # memoryspot-web
 Web platform for memoryspot
-[Link to the website!](alzheimers.github.io/memoryspot-web)
+[Link to the website!](https://alzheimers.github.io/memoryspot-web/)
