@@ -52,6 +52,7 @@ body {
 }
 
 .navbar {
+    display: -webkit-flex;
     color: white;
     background-color: #1b2735;
     -webkit-box-shadow: 0 2px 2px -2px #000;
@@ -68,18 +69,21 @@ body {
 }
 
 .nav_start {
+    display: -webkit-flex;
     display: flex;
     margin-right: auto;
     justify-content: flex-end;
 }
 
 .nav_end {
+    display: -webkit-flex;
     margin-left: auto;
     display: flex;
     justify-content: flex-start;
 }
 
 .nav_item {
+    display: -webkit-flex;
     display: flex;
     align-items: center;
     padding-left: 50px;
@@ -112,6 +116,7 @@ body {
 }
 
 .hero_container {
+    display: -webkit-flex;
     display: flex;
     flex-direction: column;
     height: 93%;
@@ -124,12 +129,14 @@ body {
 }
 
 .container_top {
+    display: -webkit-flex;
     height: 0%;
     width: 0%;
     align-self: flex-start;
 }
 
 .container {
+    display: -webkit-flex;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -137,6 +144,7 @@ body {
 }
 
 .container_bottom {
+    display: -webkit-flex;
     align-self: flex-end;
     height: 0%;
     width: 0%;
@@ -145,6 +153,7 @@ body {
 
 
 .footer {
+    display: -webkit-flex;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -167,4 +176,58 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
+}
+
+#first {
+    color: #2f94bc;
+}
+
+.active{
+    border-bottom-width: 1.5px;
+    border-bottom-color: #FFF;
+    border-bottom-style: solid;
+}
+.title{
+
+    color: white;
+    font-weight: 200;
+    font-family: 'Lato', sans-serif;
+    font-size: 75px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 10px;
+    visibility: hidden;
+}
+
+.features_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-flow: row wrap;
+    padding-top: 2%;
+    height: 100%;
+    width: 100%;
+}
+.features_elements{
+    justify-content: center;
+    height: 65%;
+    width:40%;
+    background: white;
+    margin: 2%;
+    border-radius:15px;
+}
+.features_elements: hover{
+    border-bottom-width: 1.5px;
+    border-bottom-color: #FFF;
+    border-bottom-style: solid;
+}
+.features_title{
+    margin-top: 30px;
+    align-content: center;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+}
+
+.features_info{
+    text-align: center;
 }
